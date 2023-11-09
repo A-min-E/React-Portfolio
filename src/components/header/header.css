@@ -62,7 +62,7 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 120vh;
+    height: 100vh;
   }
 }
 
@@ -71,16 +71,6 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
-  }
-  .header__socials,
-  .scroll__down {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  header {
-    height: 130vh;
   }
   .header__socials,
   .scroll__down {
