@@ -36,7 +36,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <h5>{t("gettch")}</h5>
-      <h2>{"ctncme"}</h2>
+      <h2>{t("ctncme")}</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
