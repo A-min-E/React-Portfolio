@@ -3,8 +3,9 @@ import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
 import "./footer.css";
-
-const footer = () => {
+import { useTranslation } from "react-i18next";
+const Footer = () => {
+  const { t, i18n } = useTranslation();
   return (
     <footer id="footer">
       <a href="#" className="footer__logo">
@@ -15,22 +16,22 @@ const footer = () => {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">{t("me")}</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experience">{t("exp")}</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#services">{t("sers")}</a>
         </li>
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonials">{t("testim")}</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">{t("contc")}</a>
         </li>
       </ul>
       <div className="footer__socials">
@@ -45,10 +46,10 @@ const footer = () => {
         </a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; Mohamed Amine WISSAR Website. All rights reserved.</small>
+        <small>&copy;{t("quoat")}</small>
       </div>
     </footer>
   );
 };
 
-export default footer;
+export default Footer;

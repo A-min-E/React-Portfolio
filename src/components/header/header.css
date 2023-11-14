@@ -43,9 +43,9 @@ header {
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 3rem;
-  border-radius: 12rem 12rem 0 0;
+  border-radius: 5rem;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding: 2rem 0.4rem;
 }
 
 /* =========================== SCROLL DOWN ===========================*/
@@ -76,4 +76,64 @@ header {
   .scroll__down {
     display: none;
   }
+}
+
+/* LANGUAGE STYLING */
+
+.lng_mode {
+  margin-top: -90px;
+  margin-left: 20px;
+}
+
+.lng_mode_label {
+  width: 65px;
+  height: 30px;
+  position: relative;
+  display: block;
+  background: var(--color-bg-variant);
+  border-radius: 200px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+.lng_mode_label:after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background: var(--color-primary);
+  border-radius: 180px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.lng_mode_input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.lng_mode_input:checked + .lng_mode_label:after {
+  left: 62px;
+  transform: translateX(-100%);
+  /* background: linear-gradient(180deg, #777, #3a3a3a); */
+}
+.lng_mode_label:active:after {
+  width: 30px;
+}
+
+.lng_mode_label .lng_mode_label-pic {
+  position: absolute;
+  width: 20px;
+  top: 5px;
+  z-index: 100;
+}
+.lng_mode_label .en-pic {
+  left: 5px;
+  transition: 0.3s;
+}
+.lng_mode_label .de-pic {
+  left: 40px;
+  transition: 0.3s;
 }

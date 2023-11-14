@@ -8,10 +8,12 @@ import Experience from "./components/experience/Experience";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
+import { useTranslation } from "react-i18next";
 
 const App = () => {
+  const { t, i18n } = useTranslation();
   return (
-    <>
+    <div>
       <Header />
       <Nav />
       <About />
@@ -21,7 +23,7 @@ const App = () => {
       <Testimonials />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 };
 export default App;

@@ -4,6 +4,8 @@ import AVTR2 from "../../assets/avatar2.png";
 import AVTR3 from "../../assets/avatar3.png";
 import AVTR4 from "../../assets/avatar4.png";
 import "./testimonials.css";
+import { useTranslation } from "react-i18next";
+
 // import Swiper core and required modules
 import { Pagination } from "swiper/modules";
 
@@ -14,36 +16,33 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const Testimonials = () => {
+  const { t, i18n } = useTranslation();
   const data = [
     {
       avatar: AVTR1,
       name: "Lara Smith",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nisi?",
+      review: t("revw1"),
     },
     {
       avatar: AVTR2,
       name: "Tom Thum",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nisi?",
+      review: t("revw2"),
     },
     {
       avatar: AVTR3,
-      name: "Mario Olipo",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nisi?",
+      name: "Maria Olipo",
+      review: t("revw3"),
     },
     {
       avatar: AVTR4,
-      name: "Justin Fridg",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nisi?",
+      name: "Kathren Fridg",
+      review: t("revw4"),
     },
   ];
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>{t("clnrev")}</h5>
+      <h2>{t("testim")}</h2>
       <Swiper
         className="testimonial__container"
         // install Swiper modules

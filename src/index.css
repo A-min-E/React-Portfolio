@@ -24,6 +24,20 @@
   --container-width-sm: 90%;
 }
 
+[data-theme="light"] {
+  --color-bg: #f0f0f5; /* Light gray background */
+  --color-bg-variant: #dcdce5; /* Slightly darker background variant */
+  --color-primary: #4db5ff; /* Your original primary color */
+  --color-primary-variant: rgba(
+    77,
+    181,
+    255,
+    0.2
+  ); /* A lighter variant of the primary color */
+  --color-white: #fff; /* White text color */
+  --color-light: rgba(255, 255, 255, 0.8); /* Lighter text color */
+}
+
 html {
   scroll-behavior: smooth;
 }
