@@ -16,6 +16,7 @@
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
+  --toggel-fg: #4db5ff;
 
   --transition: all 400ms ease;
 
@@ -25,7 +26,7 @@
 }
 
 [data-theme="light"] {
-  --color-bg: #f0f0f5; /* Light gray background */
+  --color-bg: #f0f0f5 !important; /* Light gray background */
   --color-bg-variant: #dcdce5; /* Slightly darker background variant */
   --color-primary: #4db5ff; /* Your original primary color */
   --color-primary-variant: rgba(
@@ -34,8 +35,9 @@
     255,
     0.2
   ); /* A lighter variant of the primary color */
-  --color-white: #fff; /* White text color */
-  --color-light: rgba(255, 255, 255, 0.8); /* Lighter text color */
+  --color-white: black; /* White text color */
+  --color-light: rgba(109, 109, 109, 0.8); /* Lighter text color */
+  --toggel-fg: #ffcf02;
 }
 
 html {

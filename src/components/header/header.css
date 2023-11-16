@@ -82,7 +82,7 @@ header {
 
 .lng_mode {
   margin-top: -90px;
-  margin-left: 20px;
+  margin-left: 10%;
 }
 
 .lng_mode_label {
@@ -137,3 +137,5 @@ header {
   left: 40px;
   transition: 0.3s;
 }
+
+/* TOGGLE LIGHT DARK MODE */
