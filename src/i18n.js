@@ -58,6 +58,7 @@ i18next.use(initReactI18next).init({
         title4: "Demo4",
         title5: "Demo5",
         title6: "Demo6",
+        gthb: "https://github.com/A-min-E",
 
         //Testimonials Component
         clnrev: "Review from clients",
