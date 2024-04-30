@@ -9,7 +9,7 @@ i18next.use(initReactI18next).init({
       translation: {
         // Header Component
         hello: "Hello I'm",
-        job: "Fullstack-Developer",
+        job: "Fullstack-Web-Developer",
         godown: "Scroll Down",
         cv: "Download My CV",
         tk: "Let's Talk",
@@ -90,7 +90,7 @@ i18next.use(initReactI18next).init({
       translation: {
         // Header Component
         hello: "Hallo ich bin",
-        job: "Fullstack-Entwickler",
+        job: "Fullstack-Web-Entwickler",
         godown: "Runterscrollen",
         cv: "CV herunterladen",
         tk: "Lass uns reden",

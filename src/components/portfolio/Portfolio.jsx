@@ -2,9 +2,9 @@ import React from "react";
 import IMG1 from "../../assets/Portfolio1.png";
 import IMG2 from "../../assets/Portfolio2.png";
 import IMG3 from "../../assets/Portfolio3.png";
-import IMG4 from "../../assets/Portfolio4.jpg";
+import IMG4 from "../../assets/Portfolio4.png";
 import IMG5 from "../../assets/Portfolio5.png";
-import IMG6 from "../../assets/Portfolio6.jpg";
+import IMG6 from "../../assets/Portfolio6.png";
 import "./portfolio.css";
 import { useTranslation } from "react-i18next";
 
@@ -14,44 +14,44 @@ const Portfolio = () => {
     {
       id: 1,
       image: IMG1,
-      title: t("title1"),
-      github: t("gthb"),
-      demo: "https://dribbble.com/Alien_pixels",
+      title: t("nike-shop"),
+      github: "https://github.com/A-min-E",
+      demo: "https://nike-shop.rf.gd/?i=1",
     },
     {
       id: 2,
       image: IMG2,
-      title: t("title2"),
-      github: t("gthb"),
-      demo: "https://dribbble.com/Alien_pixels",
+      title: t("fitness-club"),
+      github: "https://github.com/A-min-E",
+      demo: "https://maw-fitness-club.000webhostapp.com",
     },
     {
       id: 3,
       image: IMG3,
-      title: t("title3"),
-      github: t("gthb"),
-      demo: "https://dribbble.com/Alien_pixels",
+      title: t("coffe-shop"),
+      github: "https://github.com/A-min-E",
+      demo: "https://maw-coffe-shop.000webhostapp.com",
     },
     {
       id: 4,
       image: IMG4,
-      title: t("title4"),
-      github: t("gthb"),
-      demo: "https://dribbble.com/Alien_pixels",
+      title: t("store-maroc"),
+      github: "https://github.com/A-min-E",
+      demo: "https://aminestoremaroc.000webhostapp.com",
     },
     {
       id: 5,
       image: IMG5,
-      title: t("title5"),
-      github: t("gthb"),
-      demo: "https://dribbble.com/Alien_pixels",
+      title: t("E-shop"),
+      github: "https://github.com/A-min-E",
+      demo: "https://maw-fitness.free.nf",
     },
     {
       id: 6,
       image: IMG6,
-      title: t("title6"),
-      github: t("gthb"),
-      demo: "https://dribbble.com/Alien_pixels",
+      title: t("restaurant"),
+      github: "https://github.com/A-min-E",
+      demo: "https://maw-restaurant.free.nf/",
     },
   ];
   return (
