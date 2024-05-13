@@ -30,7 +30,7 @@ const Portfolio = () => {
       image: IMG3,
       title: t("coffe-shop"),
       github: "https://github.com/A-min-E",
-      demo: "https://maw-coffe-shop.000webhostapp.com",
+      demo: "https://wissar.free.nf",
     },
     {
       id: 4,
