@@ -9,7 +9,7 @@ i18next.use(initReactI18next).init({
       translation: {
         // Header Component
         hello: "Hello I'm",
-        job: "Fullstack-Web-Developer",
+        job: "IT Technician",
         godown: "Scroll Down",
         cv: "Download My CV",
         tk: "Let's Talk",
@@ -18,26 +18,27 @@ i18next.use(initReactI18next).init({
         know: "Get To Know",
         me: "About Me",
         exp: "Experience",
-        expNbr: "3+ Years Working",
+        expNbr: "Graduate Technician",
         cln: "Clients",
-        clnNbr: "20+ Worldwide",
+        clnNbr: "5 Worldwide",
         proj: "Projects",
-        projNbr: "40+ Completed",
+        projNbr: "10+ Completed",
         textAbout:
-          "I'm a Web Developer with a vast experience in the field, I have worked in different field with companies and small businesses, that allowed me to understand and master the need of the market",
+          "I'm a IT Technician with a modest experience in the field, I have worked in different field with companies and small businesses, that allowed me to understand and master the need of the market",
 
         //Experience Component
         skl: "What Skills I Have",
         mexp: "My Experience",
         frntdev: "Frontend Development",
-        bckdev: "Backend Development",
+        programming: "Programming",
+        networking : "Networking",
         exper: "Experienced",
         inter: "Intermediate",
 
         //Services Component
         ofr: "What I Offer",
         sers: "Services",
-        udesg: "UI/UX Design",
+        udesg: "Web",
         udesgtxt1: "Strategy",
         udesgtxt2: "Scope",
         udesgtxt3: "Structure",
@@ -100,19 +101,20 @@ i18next.use(initReactI18next).init({
         know: "Kennenlernen",
         me: "Über mich",
         exp: "Erfahrung",
-        expNbr: "2+ Jahre arbeiten",
+        expNbr: "Diplom-fachtechniker",
         cln: "Kunden",
-        clnNbr: "Über 20 weltweit",
+        clnNbr: "5 weltweit",
         proj: "Projekte",
-        projNbr: "40+ Abgeschlossen",
+        projNbr: "10+ Abgeschlossen",
         textAbout:
-          "Ich bin ein Webentwickler mit umfangreicher Erfahrung auf diesem Gebiet. Ich habe in verschiedenen Bereichen mit Unternehmen und kleinen Unternehmen zusammengearbeitet, was es mir ermöglichte, die Bedürfnisse des Marktes zu verstehen und zu meistern",
+          "Ich bin ein Fachinformatiker mit Bescheidene Erfahrung auf diesem Gebiet. Ich habe in verschiedenen Bereichen mit Unternehmen und kleinen Unternehmen zusammengearbeitet, was es mir ermöglichte, die Bedürfnisse des Marktes zu verstehen und zu meistern",
 
         //Experience Component
         skl: "Welche Fähigkeiten ich habe",
         mexp: "Meine Erfahrung",
         frntdev: "Frontend-Entwicklung",
-        bckdev: "Backend-Entwicklung",
+        programming: "Programmierung",
+        networking : "Netzwerk",
         exper: "Erfahren",
         inter: "Mittelstufe",
 

@@ -17,94 +17,102 @@ const Experience = () => {
               <BsPatchCheckFill className="icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">{t("exper")}</small>
+                {/* <small className="text-light">{t("exper")}</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">{t("inter")}</small>
+                {/* <small className="text-light">{t("inter")}</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">{t("exper")}</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="icon" />
-              <div>
-                <h4>Bootstrap</h4>
-                <small className="text-light">{t("exper")}</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="icon" />
-              <div>
-                <h4>Tailwind</h4>
-                <small className="text-light">{t("inter")}</small>
+                {/* <small className="text-light">{t("exper")}</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">{t("exper")}</small>
+                {/* <small className="text-light">{t("exper")}</small> */}
               </div>
             </article>
           </div>
         </div>
         {/* end of frontend */}
         <div className="experience__backend">
-          <h3>{t("bckdev")}</h3>
+          <h3>{t("networking")}</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="icon" />
               <div>
-                <h4>Node JS</h4>
-                <small className="text-light">{t("exper")}</small>
+                <h4>SSL & TLS </h4>
+                {/* <small className="text-light">{t("exper")}</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="icon" />
               <div>
-                <h4>MongoDB</h4>
-                <small className="text-light">{t("inter")}</small>
+                <h4>Networking</h4>
+                {/* <small className="text-light">{t("inter")}</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>Khali Linux  </h4>
+                {/* <small className="text-light">{t("exper")}</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>Windows Server</h4>
+                {/* <small className="text-light">{t("exper")}</small> */}
+              </div>
+            </article>
+            
+          </div>
+        </div>
+        {/* end of networking */}
+        <div className="experience__backend">
+          <h3>{t("programming")}</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>Python</h4>
+                {/* <small className="text-light">{t("exper")}</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>SQL Server</h4>
+                {/* <small className="text-light">{t("inter")}</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="icon" />
               <div>
                 <h4>PHP</h4>
-                <small className="text-light">{t("exper")}</small>
+                {/* <small className="text-light">{t("exper")}</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">{t("exper")}</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="icon" />
-              <div>
-                <h4>Laravel</h4>
-                <small className="text-light">{t("inter")}</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="icon" />
-              <div>
-                <h4>Python</h4>
-                <small className="text-light">{t("exper")}</small>
+                {/* <small className="text-light">{t("exper")}</small> */}
               </div>
             </article>
           </div>
         </div>
+        {/* end of programming */}
       </div>
     </section>
   );

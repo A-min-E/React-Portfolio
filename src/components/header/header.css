@@ -81,8 +81,11 @@ header {
 /* LANGUAGE STYLING */
 
 .lng_mode {
+  scale: 1.5;
   margin-top: -90px;
-  margin-left: 10%;
+  margin-left: 5%;
+  position: fixed;
+  z-index: 10000;
 }
 
 .lng_mode_label {

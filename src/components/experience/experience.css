@@ -1,6 +1,6 @@
 .experience__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
 
@@ -28,6 +28,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
+  
 }
 
 .experience__details {
@@ -38,6 +39,10 @@
 .experience__details .icon {
   margin-top: 6px;
   color: var(--color-primary);
+}
+
+.experience__details div h4 {
+  text-overflow: ellipsis ellipsis; 
 }
 
 /* =================== MEDIA QUERIES(MEDIUL DEVICES) ================= */
