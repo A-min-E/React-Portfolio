@@ -18,7 +18,7 @@ const About = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
+            <article className="about__card"> 
               <FaAward className="about__icon" />
               <h5>{t("exp")}</h5>
               <small>{t("expNbr")}</small>
