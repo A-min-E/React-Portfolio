@@ -52,6 +52,7 @@ i18next.use(initReactI18next).init({
         webdtxt5: "review",
 
         //Portfolio Component
+        certs : "Certificates",
         wrkres: "My Recent Work",
         title1: "Job portal application",
         title2: "Ecommerce Clothes shop",
@@ -135,6 +136,7 @@ i18next.use(initReactI18next).init({
         webdtxt5: "Rezension",
 
         //Portfolio Component
+        certs : "Zertifikate",
         wrkres: "Meine aktuelle Arbeit",
         title1: "Bewerbung im Jobportal",
         title2: "E-Commerce-Bekleidungsgeschäft",
