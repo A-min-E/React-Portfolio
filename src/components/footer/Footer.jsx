@@ -21,15 +21,15 @@ const Footer = () => {
         <li>
           <a href="#experience">{t("exp")}</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#services">{t("sers")}</a>
-        </li>
+        </li> */}
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">{t("certs")}</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#testimonials">{t("testim")}</a>
-        </li>
+        </li> */}
         <li>
           <a href="#contact">{t("contc")}</a>
         </li>
